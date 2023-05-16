@@ -1,0 +1,85 @@
+ /* acceuil */
+ *{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: #F2F6FF;
+}
+.d-flex{
+    width: 30%;
+    float: right;
+    margin: 1%;
+}
+#btn_acceuil{
+     margin: 2%; 
+    background-color: #F2F6FF;
+    border-color: #16194F;
+    color: #16194F;
+    width: 100%;
+    
+}
+#btn_acceuil:hover{
+    background-color: #16194F;
+    border-color: #F2F6FF;
+    color: #F2F6FF;
+    
+}
+#image{
+    background-image: url("img/centre-de-formation.jpg");
+    background-position: center;
+    color: black;
+    font-size: 2rem;
+    height: 10em;
+    opacity: 1;
+    width: 100%;
+    z-index: -1;
+}
+#about{
+    background-color: white;
+    opacity: 0.2;
+    width: 30%;
+    padding: 1%;
+    border-radius: 5px;
+}
+h3{
+    font-size: 2.5rem;
+    text-align: center;
+    color: #F44E77;
+    margin: 2%;
+    font-family:'Times New Roman', Times, serif;
+
+}
+section p{
+    padding: 10%;
+    font-size: 2.5rem;
+    text-align: center;
+    color: black;
+}
+.card{
+    text-align: center;
+    margin: 3%;
+}
+#btn_search{
+
+    width: 30%;
+    border-radius: 5px;
+    background-color: #16194F;
+    border: 1px #F2F6FF;
+    color: #F2F6FF;
+} 
+#formateur{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#cat{
+    text-align: center;
+    border: 1px #16194F;
+    /* float: right; */
+}
+footer{
+    text-align: center;
+    background-color: #F2F6FF;
+    height: 80px;
+}

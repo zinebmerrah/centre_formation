@@ -1,0 +1,71 @@
+
+#body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    text-align: center;
+    color: #F44E77;
+    margin: 2%;
+}
+#form_inscription{
+
+    border: 1px solid rgb(215, 214, 214);
+    border-radius: 5px;
+    background-color: #F2F6FF;
+    width: 55%;
+    margin: 0.5vh;
+    justify-content: center;
+}
+
+#btn_retour{
+
+    width: 15%;
+    border-radius: 5px;
+    background-color: #16194F;
+    border: 1px #F2F6FF;
+    color: #F2F6FF;
+    
+}
+#btn_retour:hover{
+   
+    background-color: #F2F6FF;
+    border-color: #16194F;
+    color: #16194F;
+     
+}
+
+#btn_inscrire{
+    background-color: #ffffff;
+    border-color: #16194F;
+    color: #16194F;
+}
+#btn_inscrire:hover{
+    background-color: #16194F;
+    border-color: #F2F6FF;
+    color: #F2F6FF;
+}
+/* page de connection */
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+.vh-100{
+    background-color: #F2F6FF;
+    opacity: 0.9;
+}
